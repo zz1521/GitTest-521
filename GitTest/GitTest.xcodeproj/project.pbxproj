@@ -13,6 +13,7 @@
 		A6C3F2EF1CAE50A900CB0273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C3F2ED1CAE50A900CB0273 /* Main.storyboard */; };
 		A6C3F2F11CAE50A900CB0273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C3F2F01CAE50A900CB0273 /* Assets.xcassets */; };
 		A6C3F2F41CAE50A900CB0273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C3F2F21CAE50A900CB0273 /* LaunchScreen.storyboard */; };
+		A6C3F2FE1CAE54A500CB0273 /* PersonB.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F2FD1CAE54A500CB0273 /* PersonB.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A6C3F2F01CAE50A900CB0273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6C3F2F31CAE50A900CB0273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6C3F2F51CAE50A900CB0273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C3F2FC1CAE54A500CB0273 /* PersonB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonB.h; sourceTree = "<group>"; };
+		A6C3F2FD1CAE54A500CB0273 /* PersonB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		A6C3F2E31CAE50A900CB0273 /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				A6C3F2FB1CAE548400CB0273 /* B */,
 				A6C3F2E71CAE50A900CB0273 /* AppDelegate.h */,
 				A6C3F2E81CAE50A900CB0273 /* AppDelegate.m */,
 				A6C3F2EA1CAE50A900CB0273 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				A6C3F2E51CAE50A900CB0273 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6C3F2FB1CAE548400CB0273 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				A6C3F2FC1CAE54A500CB0273 /* PersonB.h */,
+				A6C3F2FD1CAE54A500CB0273 /* PersonB.m */,
+			);
+			name = B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6C3F2EC1CAE50A900CB0273 /* ViewController.m in Sources */,
+				A6C3F2FE1CAE54A500CB0273 /* PersonB.m in Sources */,
 				A6C3F2E91CAE50A900CB0273 /* AppDelegate.m in Sources */,
 				A6C3F2E61CAE50A900CB0273 /* main.m in Sources */,
 			);
@@ -298,6 +312,7 @@
 				A6C3F2FA1CAE50A900CB0273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
